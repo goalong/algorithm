@@ -12,7 +12,11 @@ def binarySearch(l, t):
 	return False
 
 l = [1, 4, 12, 45, 66, 99, 120, 444]
-print binarySearch(l, 12)
-print binarySearch(l, 1)
-print binarySearch(l, 13)
+
+if __name__ == '__main__':
+	print binarySearch(l, 12)
+	print binarySearch(l, 1)
+	print binarySearch(l, 13)
+
+
 			
