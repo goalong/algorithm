@@ -1,5 +1,5 @@
 # encoding: utf-8
-# 知乎的面试有一题就是让我用两个栈实现一个队列
+# 知乎的面试有一题就是让我用两个栈实现一个队列， 其中栈只有pop和push方法
 class Queue():
 	def __init__(self):
 		self.items = []
